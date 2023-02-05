@@ -1,0 +1,17 @@
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/pages/TechGlobalDynamicTablesPage.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/pages/TechGlobalFrontendTestingHomePage.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/pages/TechGlobalBasePage.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/DropdownHandler.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/TextHandler.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/WindowHandler.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/steps/GoogleSteps.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/pages/GoogleSearchPage.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/runners/Runner.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/AlertHandler.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/ConfigReader.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/pages/TechGlobalAlertsPage.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/steps/TechGlobalSteps.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/Waiter.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/utils/Driver.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/steps/Hooks.java
+/Users/ozanatc/IdeaProjects/cucumber_framework_5/src/test/java/steps/BaseSteps.java
