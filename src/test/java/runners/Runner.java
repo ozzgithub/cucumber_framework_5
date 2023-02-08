@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "steps",
         tags = "",
-        dryRun = true,
+        dryRun = false, //
         monochrome = false // with false , reporting much more clean
 
 )
