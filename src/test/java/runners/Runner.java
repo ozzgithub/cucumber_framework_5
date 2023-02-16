@@ -7,16 +7,14 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
-        features = "src/test/resources/features" ,
+        features = "src/test/resources/features",
         glue = "steps",
-        tags = "",
-        dryRun = false, //
-        monochrome = false // with false , reporting much more clean
-
+        tags = "@Login",
+        dryRun = false,
+        monochrome = false,
+        plugin = {"html:target/cucumber-reports",
+                "json:target/cucumber-reports/Cucumber.json",
+        "pretty"}
 )
-
 public class Runner {
-
-
 }

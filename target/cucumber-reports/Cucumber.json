@@ -1,0 +1,1052 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2060230568,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192398489,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Practices dropdown in the header",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672767583,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the \"Frontend Testing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 440983146,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the \"Login Form\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47515922,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"Login Form\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4309778730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 670080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSteps.setPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 854814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EtsySteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1292349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate login",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 221765581,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 438587847,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username as \"johndoe\" and password as \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"johndoe\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TechGlobalSteps.userEntersUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30936036,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see a \"Invalid Username entered!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Username entered!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeAMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 882314492,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135467554,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Practices dropdown in the header",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 677157254,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the \"Frontend Testing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441830084,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the \"Login Form\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39633783,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"Login Form\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2446537096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 318484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSteps.setPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EtsySteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 98499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate login",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 187067637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 338004638,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username as \"tomsmith\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 51
+                }
+              ],
+              "location": "TechGlobalSteps.userEntersUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35280373,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see a \"Invalid Username entered!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Username entered!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeAMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1041632653,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179499249,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Practices dropdown in the header",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671850004,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the \"Frontend Testing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488904560,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the \"Login Form\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43059794,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"Login Form\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2306167117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSteps.setPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 18689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EtsySteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91615,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate login",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 187518672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 350752679,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username as \"TechGlobal\" and password as \"Test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TechGlobal\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Test1234\"",
+                  "offset": 53
+                }
+              ],
+              "location": "TechGlobalSteps.userEntersUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33829137,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see a \"You are logged in\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You are logged in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeAMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 943965692,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199861043,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Practices dropdown in the header",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 691638923,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the \"Frontend Testing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429718033,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the \"Login Form\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38815842,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"Login Form\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2519212089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 149048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSteps.setPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24328,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 243559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EtsySteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 149257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate login",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 202637459,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 382464634,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username as \"TechGlobal\" and password as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TechGlobal\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 53
+                }
+              ],
+              "location": "TechGlobalSteps.userEntersUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34150000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see a \"Invalid Password entered!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Password entered!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeAMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999667300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://techglobal-training.netlify.app/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techglobal-training.netlify.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161353136,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Practices dropdown in the header",
+            "match": {
+              "location": "TechGlobalSteps.userClicksOnPracticesDropdownInTheHeader()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820157837,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the \"Frontend Testing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frontend Testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509080868,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the \"Login Form\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TechGlobalSteps.userSelectsTheOption(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52856891,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"Login Form\" heading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Form\"",
+                  "offset": 16
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2658509751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechGlobalSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 203838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WikipediaSteps.setPage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 207975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EtsySteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validate login",
+        "description": "",
+        "id": "techglobal-training-functionalities;validate-login;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 184298886,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 231411299,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters username as \"\" and password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 43
+                }
+              ],
+              "location": "TechGlobalSteps.userEntersUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40262421,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see a \"Invalid Username entered!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Username entered!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "TechGlobalSteps.userShouldSeeAMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "TechGlobal Training Functionalities",
+    "description": "",
+    "id": "techglobal-training-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/techGlobalLogin.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

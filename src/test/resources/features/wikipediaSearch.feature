@@ -1,25 +1,25 @@
+@Wiki
+Feature: Wikipedia search functionality
 
+  Background:
+    Given user navigates to "https://www.wikipedia.org/"
 
-Feature: Wikipedia Search Functionality
+  Scenario Outline: Validate Wikipedia search
 
+    When user searches for "<key>" on Wikipedia
+    Then user should see "<key>" in the title
+    And user should see "<key>" in the url
+    And user should see "<key>" in the first heading
+    Examples:
+      | key           |
+      | Elon Musk     |
+      | Joni Mitchell |
+      | Mike Tyson    |
 
-Scenario Outline: Validate wiki search
+    @WikiLanguages
 
-
-
-Given user navigates to "https://www.wikipedia.org/"
-When user searches for "<key>" on Wikipedia
-Then user should see "<title>" in the title
-And user should see "<url>" in the url
-And user should see "<heading>" in the first heading
-
-
-  Examples:
-
-  |    key       |    title   |     url      |   heading   |
-
-  |  Elon Musk   | Elon Musk  |  Elon Musk   |  Elon Musk  |
-  |  Bill Gates  | Bill Gates |  Bill Gates  |  Bill Gates |
-  |  Ataturk     | Ataturk    |  Ataturk     |  Ataturk    |
+  Scenario: Validate Wikipedia main languages
+    Then user should see below languages around the logo
+      | English | Русский | 日本語 | Deutsch | Français | Español | Italiano | 中文 | فارسی | Polski |
 
 

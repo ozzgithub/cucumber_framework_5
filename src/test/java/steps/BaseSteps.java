@@ -26,7 +26,7 @@ public class BaseSteps {
     public void user_should_see_in_the_url(String key) {
 
         for(String word : key.split(" ")) {
-        Assert.assertTrue(driver.getCurrentUrl().contains(key));
+        Assert.assertTrue(driver.getCurrentUrl().contains(word));
         }
     }
 
